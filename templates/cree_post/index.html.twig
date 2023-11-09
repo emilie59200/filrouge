@@ -3,6 +3,7 @@
 {% block title %}Hello CreePostController!{% endblock %}
 
 {% block body %}
+{% include "commun/header.html.twig" %}
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
@@ -29,7 +30,7 @@
 </div>
     {{ form_end(form) }}
 </div>
-
+{% include "commun/footer.html.twig" %}
 {% endblock %}
 {% block javascripts %}
 
@@ -69,4 +70,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 //});
 </script>
+
 {% endblock %}

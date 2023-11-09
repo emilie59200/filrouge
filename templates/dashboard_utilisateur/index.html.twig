@@ -5,6 +5,7 @@
 {% block title %}Tableau de bord{% endblock %}
 
 {% block body %}
+{% include "commun/header.html.twig" %}
 <div class="container">
     <h1>Bienvenue sur votre tableau de bord, {{ app.user.prenomUtilisateur }} !</h1>
 
@@ -56,5 +57,6 @@
     
     <a href="{{ path('app_connexion_deconnexion') }}" class="btn btn-danger">Se déconnecter</a>
 </div>
+{% include "commun/footer.html.twig" %}
 {% endblock %}
 {% endblock %}

@@ -1,0 +1,22 @@
+{% block stylesheets %}<link href="{{ asset('./asset/css/footer.css') }}" rel="stylesheet"/>{% endblock %}
+
+<div class="container_footer text-center">
+    <section>
+		<img class="logo_footer" src="../asset/img/accueil.png" alt="accueil">
+		<p><a class="footer" href="{{ path('app_alerte') }}">Accueil</a></p>
+	</section>
+	<section>
+		<img class="logo_footer" src="../asset/img/carte.png" alt="carte">
+		<p><a class="footer" href="{{ path('app_accueil') }}">Détail des lignes</a></p>
+	</section>
+
+	<section>
+		<img class="logo_footer" src="../asset/img/poster.png" alt="poster">
+		<p><a class="footer" href="{{ path('app_cree_post') }}">Déposer un post</a></p>
+	</section>
+	<section>
+		<img class="logo_footer" src="../asset/img/voir-plus.png" alt="voirplus">
+		<p><a class="footer" href="#">Plus</a></p>
+	</section>
+</div>
+

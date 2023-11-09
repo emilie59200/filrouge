@@ -1,0 +1,19 @@
+.container_footer { 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:#47657c;
+    height:100px;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+}
+
+.logo_footer {
+    width: 40px;
+}
+
+.footer {
+    color:white;
+    text-decoration: none;
+}

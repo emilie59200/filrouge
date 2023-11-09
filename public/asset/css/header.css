@@ -1,0 +1,13 @@
+.container_header { 
+    position: fixed;
+    background-color:#47657c;
+    height:100px;
+    top:0;
+    width:100%;
+    z-index:1;
+  }
+
+  .logo_mobility {
+  width: 130px;
+  margin-top:10px;
+  }

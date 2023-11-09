@@ -5,6 +5,7 @@
 {% block title %}Modifier la publication{% endblock %}
 
 {% block body %}
+{% include "commun/header.html.twig" %}
 <div class="container">
     <h1>Modifier la publication</h1>
 
@@ -24,4 +25,5 @@
 
     {{ form_end(form) }}
 </div>
+{% include "commun/footer.html.twig" %}
 {% endblock %}

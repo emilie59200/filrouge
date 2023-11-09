@@ -1,0 +1,49 @@
+form { 
+    margin-top:50px;
+    background-color:#cddde8;
+    height:700px;
+    width: 600px;
+}
+
+.form-control {
+    width: 400px;
+    box-shadow:1px 1px 5px black;
+    margin-left: 100px;
+}
+
+.form-label {
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn {
+    background-color:#47657c;
+    border:solid #47657c;
+    width:200px;
+    margin-top:70px;
+}
+
+a {
+    color:black;
+}
+
+.mdp {
+    margin-top: 10px;
+}
+
+.facebook {
+    width: 15%;
+    margin-right: 25px;
+}
+
+.google {
+    width: 9%;
+}
+
+.connect {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}

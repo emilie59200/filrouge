@@ -17,16 +17,16 @@ class InscriptionUtilisateurType extends AbstractType
     {
         $builder
         ->add('telephone',TextType::class , [
-            'attr' => ['class' => 'form-control']
+            'attr' => ['class' => 'form-control', 'placeholder' => 'Téléphone']
         ])
         ->add('prenomUtilisateur',TextType::class , [
-            'attr' => ['class' => 'form-control']
+            'attr' => ['class' => 'form-control', 'placeholder' => 'Prénom']
         ])
         ->add('emailUtilisateur',EmailType::class , [
-            'attr' => ['class' => 'form-control']
+            'attr' => ['class' => 'form-control', 'placeholder' => 'E-mail']
         ])
         ->add('mdpUtlisateur', PasswordType::class , [
-            'attr' => ['class' => 'form-control']
+            'attr' => ['class' => 'form-control', 'placeholder' => 'Mot de passe']
         ])
         // ->add('roleUtlisateur',HiddenType::class ,[
         //     'data' => 'ROLE_USER',
